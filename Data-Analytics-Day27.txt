@@ -1,0 +1,40 @@
+Topics + Explanations
+
+1. Data Normalization
+=====================
+Normalization is the process of organizing data in a database to reduce redundancy and improve consistency.
+
+Example: Instead of storing customer address repeatedly in multiple tables, we keep it in one table and use keys.
+
+Real-world: Banks normalize customer and transaction data for efficiency.
+
+
+2. OLAP vs OLTP
+==============
+OLTP (Online Transaction Processing): Handles day-to-day transactions like ATM withdrawals, e-commerce orders.
+OLAP (Online Analytical Processing): Used for analysis and reporting, like creating dashboards or trend analysis.
+Analogy: OLTP = cashier at a store; OLAP = sales analyst reviewing trends.
+
+
+3. Data Pipeline Concepts
+=======================
+A data pipeline moves raw data → transformation → final destination (like dashboards, ML models).
+
+Example: Website logs → ETL → stored in data warehouse → visualized in Power BI.
+
+
+4. Data Mart vs Data Warehouse
+===========================
+Data Warehouse: Centralized, large-scale storage of all organizational data.
+Data Mart: Smaller, subject-specific storage (like only sales or HR).
+Analogy: Warehouse = supermarket; Data Mart = bakery section.
+
+
+5. Case Study: Retail Data Analytics
+=================================
+Retail companies use:
+Normalization for efficient storage,
+OLTP for transactions at POS,
+OLAP for sales trend analysis,
+Data Pipelines for integrating online + offline sales,
+Data Marts for specific department analysis (like promotions team).
